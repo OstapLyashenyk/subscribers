@@ -1,0 +1,227 @@
+
+
+            /*1
+             string name,surname,fatherName;
+             Console.WriteLine("Iмя");
+             name = Console.ReadLine();
+             Console.WriteLine("прiзвище");
+             surname = Console.ReadLine();
+             Console.WriteLine("По батьковi");
+             fatherName = Console.ReadLine();
+
+             Console.WriteLine("Iмя - {0}\nПрiзвище -{1}\nПо батьковi-{2}",name,surname,fatherName);
+             Console.ReadKey();
+            */
+            /*2
+           string name, surname, fatherName;
+           Console.WriteLine("Iмя");
+           name = Console.ReadLine();
+           Console.WriteLine("прiзвище");
+           surname = Console.ReadLine();
+           Console.WriteLine("По батьковi");
+           fatherName = Console.ReadLine();
+           int check = Convert.ToInt32(Console.ReadLine());
+           if(check == 0) {             
+               Console.WriteLine("Iмя - {0}\nПрiзвище -{1}\nПо батьковi-{2}", name, surname, fatherName);
+               }else{
+               Console.WriteLine("Відмовлено");
+                   }
+
+           Console.ReadKey();
+           */
+            /*3
+            string login = "admin";
+            string pass = "123";
+            Console.WriteLine("Password:");
+            string incommingPass = Console.ReadLine();
+            Console.WriteLine("Login:");
+            string incommingLogin = Console.ReadLine(); 
+            if (incommingPass == pass && login == incommingLogin) { 
+                Console.WriteLine("Допущено");
+            }
+            else
+            {
+                Console.WriteLine("Вiдхилено");
+            }
+            Console.ReadKey();
+            */
+            /*4
+           Console.WriteLine("age");
+           int age = Convert.ToInt32(Console.ReadLine());
+           if (age >= 18) { 
+               Console.WriteLine(" Вітаємо Ви можете скористатись усіма можливостями програми ");
+           }
+           else 
+           {
+               Console.WriteLine("Ви не можете скористатись усіма можливостями програми ");
+           }
+           Console.ReadKey();
+           */
+            /*5
+            Console.WriteLine("x");    
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("y");
+            int y = Convert.ToInt32(Console.ReadLine());
+            if (x > y)
+            {
+                Console.WriteLine("x") ;
+            }
+            else
+            {
+                Console.WriteLine("y");
+
+            }
+            Console.ReadKey();*/
+            /*6
+           Console.WriteLine("x");
+           int x = Convert.ToInt32(Console.ReadLine());
+           int numerator = x-10;
+           if (numerator < 0)
+           {
+               Console.WriteLine("Обчислення неможливе");
+           }
+           else { 
+               double y = Math.Sqrt(x-10);
+               Console.WriteLine(y);
+           }
+
+           Console.ReadKey();*/
+            /*7
+           Console.WriteLine("x");
+           double x = Convert.ToInt32(Console.ReadLine());
+           double numerator = 5 - x;
+           double denominator = x - 1 ;
+           if(numerator<0 || denominator == 0)
+           {
+               Console.WriteLine("Обчислення неможливе");
+           }
+           else { 
+           double y = Math.Round(Math.Sqrt(5-x)/(x-1),2);
+
+           Console.WriteLine(y);
+           }
+           Console.ReadKey();*/
+            /*8
+            Console.WriteLine("Сторони");
+            int a=Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            if(a+b <= c || a+c <= b || b+c <= a) {
+                Console.WriteLine("Не трикутник");
+            }
+            else
+            {
+                if (a == b && a == c) { 
+                    Console.WriteLine("Рівносторонній"); 
+                }
+                else if (a == b || a == c || c == b)
+                { 
+                    Console.WriteLine("Рівносторонній"); 
+                }  
+                else 
+                {
+                    Console.WriteLine("Різносторонній");
+                }
+            }
+
+            Console.ReadKey();*/
+            /*9
+            int a = Convert.ToInt32(Console.ReadLine());
+            switch (a)
+            {
+                case 1:
+                    Console.WriteLine("Понеділок");
+                    break;
+                case 2:
+                    Console.WriteLine("Вівторок");
+                    break;
+                case 3:
+                    Console.WriteLine("Середа");
+                    break;
+                case 4:
+                    Console.WriteLine("Четвер");
+                    break;
+                case 5:
+                    Console.WriteLine("Пятниця");
+                    break;
+                case 6:
+                    Console.WriteLine("Субота");
+                    break;
+                case 7:
+                    Console.WriteLine("Неділя");
+                    break;
+                default:
+                    Console.WriteLine("Недоступно");
+                    break;
+            }
+            Console.ReadKey();*/
+            /*10
+           int a = Convert.ToInt32(Console.ReadLine());
+           int b = Convert.ToInt32(Console.ReadLine());
+           string result = a > b ? "a" : "b" ;
+           Console.WriteLine(result);
+           Console.ReadKey();*/
+            /*11
+            int i =  Convert.ToInt32(Console.ReadLine());
+            if(i % 2 == 1)
+            { 
+                Console.WriteLine("Непарне");
+            }
+            else
+            {
+                Console.WriteLine("Парне");
+            }
+            Console.ReadKey();*/
+            /*12
+            Console.WriteLine("startCount");
+            int statrtCount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("finishCount");
+            int finishCount = Convert.ToInt32(Console.ReadLine());
+            int amount = finishCount - statrtCount;
+            double sum;
+            if (amount > 100) { sum = amount*1.68 ; } else { sum = amount * 0.9; }
+            Console.WriteLine(amount);
+            Console.ReadKey();*/
+            /*13,14
+            int t = Convert.ToInt32(Console.ReadLine());
+            if (t >100)
+            {
+                Console.WriteLine("Газоподібний");
+            }
+            else if(t>0)
+            {
+                Console.WriteLine("Рідкоподібний");
+            }
+            else
+            {
+                Console.WriteLine("Твердий");
+            }
+            Console.ReadKey();*/
+            /*15
+            int month = Convert.ToInt32(Console.ReadLine());
+            if(month > 12 || month < 0) 
+            {
+                Console.WriteLine("Недоступно");
+            } 
+            else
+            { 
+                if (month < 12 || month >= 9)
+                {
+                    Console.WriteLine("Осінь");
+                }
+                else if (month < 12 || month >= 6)
+                {
+                    Console.WriteLine("Літо");
+                }
+                else if(month < 12 || month >= 3)
+                {
+                    Console.WriteLine("Весна");
+                }
+                else
+                {
+                    Console.WriteLine("Зима");
+                }
+            }
+            Console.ReadKey();
+            */
+   
