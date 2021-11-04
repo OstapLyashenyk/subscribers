@@ -1,0 +1,111 @@
+tema 6 
+/*1
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for(int i = 1; i <= n; i++)
+            {
+                sum += i;
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey();
+            */
+            /*2
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (i % 2 == 0) { sum += i; }
+                
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey();*/
+
+            /*3
+            int month = Convert.ToInt32(Console.ReadLine());
+            double cash = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= month; i++)
+            {
+                cash *= 1.07;
+               Console.WriteLine(cash);
+            }
+
+            Console.ReadKey();*/
+            /*5
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i < 10; i++)
+            {
+                for(int j = 1;j<10; j++) {
+                    Console.Write($"{i} * {j} = "+i*j+" | ");
+                        }
+                Console.Write("\n");
+            }
+          
+            Console.ReadKey();*/
+            /*6
+
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                if(a >= 0 && a <= 10) {
+                    
+                    if(b >= 0 && b <= 10)
+                    {
+                       
+                        break;
+
+                    }
+                }
+                Console.WriteLine("try again");
+                a = Convert.ToInt32(Console.ReadLine());
+                b = Convert.ToInt32(Console.ReadLine()); ;
+            }
+            Console.WriteLine(a * b);
+
+            Console.ReadKey();*/
+            /*7
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            if (a > b) { Console.WriteLine($"a -> {a}"); } else if (b > a) { Console.WriteLine($"b -> {b}"); } else { Console.WriteLine("Draw"); }
+            Console.ReadKey();*/
+            /*8
+            int m = Convert.ToInt32(Console.ReadLine()); ;
+            int n = Convert.ToInt32(Console.ReadLine()); ;
+            if (m % n == 0) { Console.WriteLine(m/n); } else { Console.WriteLine("Не ділиться націло"); }*/
+            /*9
+            int m = Convert.ToInt32(Console.ReadLine()); ;
+            int n = Convert.ToInt32(Console.ReadLine()); ;
+            int max = m > n ? m : n;
+            if(n == m)
+            {
+                Console.WriteLine(m+" == "+n);
+            }
+            else
+            {
+                Console.WriteLine(max);
+            }
+            Console.ReadKey();*/
+            /*10
+            int A = Convert.ToInt32(Console.ReadLine()); 
+            int B = A % 10;
+            int sum;
+            A = (A-B)/10;
+            sum = A + B;
+            if (sum / 10 > 1) { Console.WriteLine("Двозначна"); }
+            int variable = Convert.ToInt32(Console.ReadLine());
+            int max = sum > variable ? sum : variable;
+            Console.WriteLine(max);
+            Console.ReadKey();*/
+            /*11
+            double a = Convert.ToInt32(Console.ReadLine());
+            double b = Convert.ToInt32(Console.ReadLine());
+            double c = Convert.ToInt32(Console.ReadLine());
+            double avarage = a / 3 + b / 3 + c / 3;
+            if(avarage == a && avarage == b) {
+                Console.WriteLine("Числа рiвні");
+            }
+            else
+            {
+                Console.WriteLine($"avarage - {avarage}");
+            }
+            Console.ReadKey();*/
