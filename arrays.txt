@@ -1,0 +1,136 @@
+/*1
+            int[] array = new int[100];
+            Random rand = new Random();
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rand.Next(1,100);    
+                sum += array[i];
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey();
+            */
+            /*2
+            int[] array = new int[20];
+            Random rand = new Random();
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rand.Next(-100,100);
+                if(i%2 == 0) { 
+                sum += array[i];
+                }
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey();
+            */
+            /*3
+            int[] array = new int[50];
+            Random rand = new Random();
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rand.Next(-100, 100);
+                if (array[i] >= 0)
+                {
+                    sum += array[i];
+                }
+            }
+            Console.WriteLine(sum);
+            Console.ReadKey();
+            */
+            /*4
+            int[] array = {1,2,3,4,5,20,6,7,8,9,10,11,12,13,20,15,16,17,18,19};
+            int max = array[0];
+            List<int> maxI = new List<int>();
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] > max) { max = array[i]; }
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == max) { 
+                    maxI.Add(i);
+                    
+                }
+            }
+            Console.WriteLine(max);
+            Console.ReadKey();*/
+            /*5
+            int[] array = new int[50];
+            int k = 10;
+            Random rand = new Random();
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = rand.Next(-100, 100);
+                if (k == array[i])
+                {
+                    sum ++;
+                }
+            }
+            if (sum > 0) 
+                Console.WriteLine("Присутня"); 
+            Console.WriteLine(sum);
+            Console.ReadKey();*/
+            /*6
+            int[] array = { 1, 2, 3, 4, 5, 20, 6, 7, 8, 9, 10, 11, 12, 13, 20, 15, 16, 17, 18, 19 };
+            int k = 20;
+            List<int> kI = new List<int>();
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == k)
+                {
+                    kI.Add(i);
+
+                }
+            }
+            Console.ReadKey();*/
+            /*7
+            int[,] matrix = new int[5,5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = i;;)
+                {
+                    matrix[i][j] = 0;
+                    break;
+                }
+            }*/
+            /*8
+            int[,] matrix = new int[7,5];
+            int max;
+            for(int i = 0; i < 7; i++)
+            {
+                max = matrix[i,0];
+                for(int j = 1; j < 5; j++)
+                {
+                    if (matrix[i, j] > max) { max = matrix[i, j]; }
+                }
+                Console.WriteLine(max);
+            }
+            */
+            /*9
+            int[,] matrix = new int[3, 8];
+            int sum = 0;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    if (matrix[i, j] % 2 ==0 ) { sum += 1; }
+                }
+               
+            } 
+            Console.WriteLine(sum);*/
+            /*10
+            int[,] matrix = new int[3, 5];
+            int mult = 1;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    mult *= matrix[i, j]; 
+                }
+                Console.WriteLine(mult);
+                mult = 1;
+            }
+            */
